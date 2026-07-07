@@ -5,8 +5,12 @@ from dotenv import load_dotenv
 from chunk_text import chunk_text
 from extract_text import extract_text_from_pdf
 
+import streamlit as st
+
 load_dotenv()
-hf_api_key = os.environ.get("HF_API_KEY")
+
+groq_api_key = os.environ.get("GROQ_API_KEY") or st.secrets.get("GROQ_API_KEY")
+hf_api_key = os.environ.get("HF_API_KEY") or st.secrets.get("HF_API_KEY")
 
 hf_client = InferenceClient(provider="hf-inference", api_key=hf_api_key)
 

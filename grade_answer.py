@@ -2,8 +2,12 @@ import os
 import requests
 from dotenv import load_dotenv
 
+import streamlit as st
+
 load_dotenv()
-groq_api_key = os.environ.get("GROQ_API_KEY")
+groq_api_key = os.environ.get("GROQ_API_KEY") or st.secrets.get("GROQ_API_KEY")
+hf_api_key = os.environ.get("HF_API_KEY") or st.secrets.get("HF_API_KEY")
+
 
 def grade_answer(question, student_answer, context_chunks):
     context = "\n\n".join(context_chunks)
