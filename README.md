@@ -1,6 +1,6 @@
 # 📖 Study Buddy — AI-Powered Tutor for Your Own Notes
 
-**[Live demo →](https://ai-study-buddy-dbkvv39yujsqdp2kfr6vt4.streamlit.app/)**
+**Live URL:** [https://ai-study-buddy-dbkvv39yujsqdp2kfr6vt4.streamlit.app/](https://ai-study-buddy-dbkvv39yujsqdp2kfr6vt4.streamlit.app/)
 
 Upload any PDF (textbook, lecture notes, technical docs) and get a tutor that answers questions grounded in *that specific document*, generates practice questions, grades your answers, and tracks which topics you're weak on — all running on free-tier APIs, no local model downloads required.
 
