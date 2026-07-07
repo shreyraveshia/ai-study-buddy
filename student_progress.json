@@ -1,0 +1,20 @@
+{
+  "topics": {
+    "DNS": {
+      "correct": 1,
+      "incorrect": 2
+    },
+    "HTTP/HTTPS": {
+      "correct": 2,
+      "incorrect": 0
+    },
+    "DNS and how domain names work": {
+      "correct": 2,
+      "incorrect": 1
+    },
+    "The OSI Model": {
+      "correct": 1,
+      "incorrect": 1
+    }
+  }
+}
